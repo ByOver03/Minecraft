@@ -19,6 +19,7 @@
 		quick_action_bar = true
 
 [hidden]
+	play_emote_sounds_in_wardrobe = true
 	previously_launched_with_container = 1
 
 	[hidden.hidden]
@@ -33,6 +34,7 @@
 
 	[emotes.general]
 		disable_emotes = false
+		allow_emote_sounds = 0
 		play_emotes_in_third_person_view = true
 		emote_preview = false
 
@@ -47,7 +49,7 @@
 	[notifications.general]
 		disable_all_notifications = false
 		host_world_ip_warning = true
-		update_notifications = true
+		update_notifications = false
 		screenshot_toast_duration = 1
 		message_sound = true
 		online_friend_alert = true
